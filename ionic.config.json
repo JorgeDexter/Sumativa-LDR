@@ -1,0 +1,7 @@
+{
+  "name": "Sumativa-LDR",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

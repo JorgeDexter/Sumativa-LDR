@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Monitoreo de Luz Ambiental</h1>
+  <div class="status">
+    <h2>Estado Actual</h2>
+    <p id="status-text">{{ dayOrNight }}</p>
+  </div>
+  <div class="sensor-value">
+    <h2>Intensidad de Luz</h2>
+    <input type="number" [(ngModel)]="lightValue" (change)="updateDayOrNightState()">
+  </div>
+</div>
